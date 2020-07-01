@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "12345678",
-    "database": "simple-todo-list",
+    "database": "authentication-todo-list",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "operatorsAliases": false
