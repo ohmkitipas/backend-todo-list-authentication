@@ -7,6 +7,9 @@ module.exports = (sequelize, DataTypes) => {
         tableName: 'todolists',
         timestamps: false,
     });
-
+    model.associate = models => {
+        model.belongsTo(models.User, { foreignKey: 'user_id'});
+    };
+ 
     return model;
 }
